@@ -50,11 +50,6 @@ h3 {
     color: var(--lightyellow);
 }
 
-@media only screen and (min-width: 600px) {
-    h1 {
-        font-size: 36px;
-    }
-}
 
 .container{
     margin: auto;
@@ -100,6 +95,7 @@ h3 {
 .navbar__item {
     color: var(--darkgray);
     transition: 0.3s;
+    text-decoration: none;
 }
 
 .navbar__icon {
@@ -212,9 +208,15 @@ h3 {
 .card__wrapper {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
+
 @media only screen and (min-width: 600px) {
+    h1 {
+        font-size: 36px;
+    }
+
     .container {
         max-width: 414px;
     }
@@ -230,6 +232,7 @@ h3 {
     .jumbotron__inner {    
         margin:auto 75px 0px ;
    }
+   
 }
 
 @media only screen and (min-width: 1400px) {
@@ -239,6 +242,7 @@ h3 {
     .card {
         max-height: 515px;
         width: 435px;
+        flex-basis: calc(45%);
     }
     .sidebar {
         flex-shrink: 0;
