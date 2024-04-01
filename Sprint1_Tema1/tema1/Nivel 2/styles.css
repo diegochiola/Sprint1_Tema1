@@ -1,0 +1,12 @@
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
