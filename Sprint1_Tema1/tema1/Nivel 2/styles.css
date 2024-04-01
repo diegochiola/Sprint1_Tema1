@@ -10,3 +10,53 @@
     flex-direction: column;
     position: relative;
 }
+.navbar__logo {
+    height: 100%;
+}
+
+.navbar__logo img {
+    width: 68px;
+}
+
+.navbar {
+    position: absolute;
+    height: 65px;
+    top: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar__center {
+    display: flex;
+    width: 100%;
+    max-width: 750px;
+    justify-content: space-between;
+}
+
+.navbar__social {
+    display: flex;
+    width: 68px;
+    justify-content: space-around;
+}
+
+.navbar__item {
+    color: var(--darkgray);
+    transition: 0.3s;
+}
+
+.navbar__icon {
+    color: var(--darkgray);
+    transition: 0.3s;
+}
+
+.navbar__item:hover , .navbar__item:hover .navbar__icon {
+    color: var(--lightorange);
+}
+
+.navbar__text {
+    display: none;
+}
